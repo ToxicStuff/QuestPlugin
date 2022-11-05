@@ -31,7 +31,7 @@ namespace QuestPlugin
             FilePaths.Add($"{ManagedPath}/Newtonsoft.Json.dll", "https://cdn.discordapp.com/attachments/746499694875639879/1038569726307209336/Newtonsoft.Json.dll"); //Fix Newtonsoft.Json Issue
             FilePaths.Add($"{ModsDirectory}/MyEpicTestMod.dll", "https://github.com/gompoc/MyEpicTestMod/releases/download/v1.0.0/MyEpicTestMod.dll"); //Its Needed to let VRChat working
             FilePaths.Add($"{ModsDirectory}/HWIDPatch.dll", "https://github.com/knah/ML-UniversalMods/releases/download/updates-2021-07-25/HWIDPatch.dll"); //HWID Spoofer
-            FilePaths.Add($"{ModsDirectory}/QuestPlayspaceMover.dll", "https://github.com/Solexid/QuestPlayspaceMover/releases/download/r1/QuestPlayspaceMover.dll"); //HWID Spoofer
+            FilePaths.Add($"{ModsDirectory}/QuestPlayspaceMover.dll", "https://github.com/Solexid/QuestPlayspaceMover/releases/download/r1/QuestPlayspaceMover.dll"); //PlaySpace Mover
 
             foreach (var valuePair in FilePaths)
             {
